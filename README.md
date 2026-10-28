@@ -2,20 +2,20 @@
 
 Official pilot-testing downloads for Trikila Passenger and Driver.
 
-## Download v1.0.3
+## Download Android apps
 
-- [Passenger APK](https://github.com/JustinIsMee/Trikila-Downloads/releases/latest/download/Trikila-Passenger.apk)
-- [Driver APK](https://github.com/JustinIsMee/Trikila-Downloads/releases/latest/download/Trikila-Driver.apk)
+- [Passenger APK v1.0.3](https://github.com/JustinIsMee/Trikila-Downloads/releases/latest/download/Trikila-Passenger.apk)
+- [Driver APK v1.0.4](https://github.com/JustinIsMee/Trikila-Downloads/releases/latest/download/Trikila-Driver.apk)
 
 ## Current pilot server
 
-Updated October 28, 2026:
+Updated October 29, 2026:
 
-https://adventures-misc-soma-interview.trycloudflare.com
+https://marie-advisors-referrals-fossil.trycloudflare.com
 
 **Open Pilot server settings before login and enter the address above.** Cloudflare expired the previous address while these APKs were building. Existing installations can also retain the old saved address. This temporary server address can change; the operator updates it here. The laptop/server must be online for login, booking and tracking.
 
-Browser testing: [Passenger](https://adventures-misc-soma-interview.trycloudflare.com/passenger) · [Driver](https://adventures-misc-soma-interview.trycloudflare.com/driver).
+Browser testing: [Passenger](https://marie-advisors-referrals-fossil.trycloudflare.com/passenger) · [Driver](https://marie-advisors-referrals-fossil.trycloudflare.com/driver).
 
 ## Install
 
@@ -27,6 +27,10 @@ Browser testing: [Passenger](https://adventures-misc-soma-interview.trycloudflar
 
 Android only. These APKs cannot be installed on iPhones. Pilot builds are still being tested.
 
+## Driver trips & earnings
+
+Driver v1.0.4: Home and Settings > Trips & earnings show Today / All time completed trips and net after app commission. The breakdown shows recorded cash, tips included and actual charged commission. Fuel is not deducted. Demo and marked pilot-test bookings are excluded. Passenger remains v1.0.3.
+
 ## Profile picture updates
 
 Driver: Settings > Account & profile > Change profile picture. Finish any active trip, choose a portrait and submit for admin photo review. This does not resubmit or pause the driver application. Passengers see the approved photo after driver acceptance; the previous approved photo stays visible while a replacement is pending.
@@ -35,7 +39,7 @@ This repository distributes APKs only. It does not contain user accounts, passwo
 
 ## Verification
 
-TypeScript passed. Full backend suite: 206 tests passed. APK ZIP integrity and feature bundle checks passed on October 28, 2026. SHA-256:
+TypeScript passed. Full backend suite: 210 tests passed. APK ZIP integrity and feature bundle checks passed on October 29, 2026. SHA-256:
 
-- Driver v1.0.3: `4afd383d1bfac84d808c947e6eb97367dc3c7ddf71b70777ad936f8c53ae8dd2`
+- Driver v1.0.4: `696c97abdb7d369237e5c81e585eb5b501a296211e5bcec3b2f020bcd9e0a860`
 - Passenger v1.0.3: `1572fae32e343e4ef8940b8dc0c82960287c8f3acdcc7faf8708be3bcd296ab3`
