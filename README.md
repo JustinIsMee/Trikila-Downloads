@@ -4,7 +4,7 @@ Official pilot-testing downloads for Trikila Passenger and Driver.
 
 ## Download
 
-- [Passenger APK v1.0.1](https://github.com/JustinIsMee/Trikila-Downloads/releases/latest/download/Trikila-Passenger.apk)
+- [Passenger APK v1.0.2](https://github.com/JustinIsMee/Trikila-Downloads/releases/latest/download/Trikila-Passenger.apk)
 - [Driver APK v1.0.2](https://github.com/JustinIsMee/Trikila-Downloads/releases/latest/download/Trikila-Driver.apk)
 
 ## Install
@@ -28,4 +28,4 @@ This repository distributes APKs only. It does not contain user accounts, passwo
 ZIP integrity checked on October 28, 2026. SHA-256:
 
 - Driver v1.0.2: `bac8d18c6483fb85daa3d2105fd946013d655085902e0f2380fcf91c11287bf3`
-- Passenger v1.0.1: `c922b5cf70d92e7c45637f72c1f07bfcc31a26f4fca81f61a59b6de52fb5f6ca`
+- Passenger v1.0.2: `fa54626a28c4bf0917a0c15d3f079a57e17f0aa0c6c45d0f753ad0bcdb83c489`
