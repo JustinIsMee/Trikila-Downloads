@@ -1,45 +1,34 @@
 # Trikila Android Downloads
 
-Official pilot-testing downloads for Trikila Passenger and Driver.
+Browse the app previews and download both Android apps at [Trikila Apps](https://trikila-apps.quietchair19.chatgpt.site).
 
-## Download Android apps
+## Download v1.0.5 — 31 October 2026
 
-- [Passenger APK v1.0.3](https://github.com/JustinIsMee/Trikila-Downloads/releases/latest/download/Trikila-Passenger.apk)
-- [Driver APK v1.0.4](https://github.com/JustinIsMee/Trikila-Downloads/releases/latest/download/Trikila-Driver.apk)
+- [Passenger APK v1.0.5](https://github.com/JustinIsMee/Trikila-Downloads/releases/latest/download/Trikila-Passenger.apk)
+- [Driver APK v1.0.5](https://github.com/JustinIsMee/Trikila-Downloads/releases/latest/download/Trikila-Driver.apk)
+
+Both apps have a simplified public login with the development-account shortcut removed. Existing accounts and trip records remain. Normal cellphone login, signup and password recovery are available.
 
 ## Current pilot server
 
-Updated October 29, 2026:
+https://losses-reads-individuals-paperbacks.trycloudflare.com
 
-https://marie-advisors-referrals-fossil.trycloudflare.com
+Before login, use Pilot server settings if your installation has an older address. The operator's laptop and internet must remain online for login, bookings and tracking. Temporary pilot addresses may change; ask the operator for the current address if connection fails.
 
-**Open Pilot server settings before login and enter the address above.** Cloudflare expired the previous address while these APKs were building. Existing installations can also retain the old saved address. This temporary server address can change; the operator updates it here. The laptop/server must be online for login, booking and tracking.
+## Install or update
 
-Browser testing: [Passenger](https://marie-advisors-referrals-fossil.trycloudflare.com/passenger) · [Driver](https://marie-advisors-referrals-fossil.trycloudflare.com/driver).
+1. Open this page on Android and download the matching app.
+2. Open the APK; allow installation from your browser if Android requests it.
+3. Choose Update if already installed. Do not uninstall first.
+4. Verify the Pilot server address, sign in and allow location when needed.
 
-## Install
-
-1. Open this page in Chrome on your Android phone.
-2. Download the correct app above.
-3. Open the APK and allow installation from your browser if Android asks.
-4. Install, or choose Update if you already have Trikila. Do not uninstall first.
-5. Set the current Pilot server address, then log in. Allow location access when needed; drivers should enable Precise Location.
-
-Android only. These APKs cannot be installed on iPhones. Pilot builds are still being tested.
-
-## Driver trips & earnings
-
-Driver v1.0.4: Home and Settings > Trips & earnings show Today / All time completed trips and net after app commission. The breakdown shows recorded cash, tips included and actual charged commission. Fuel is not deducted. Demo and marked pilot-test bookings are excluded. Passenger remains v1.0.3.
-
-## Profile picture updates
-
-Driver: Settings > Account & profile > Change profile picture. Finish any active trip, choose a portrait and submit for admin photo review. This does not resubmit or pause the driver application. Passengers see the approved photo after driver acceptance; the previous approved photo stays visible while a replacement is pending.
-
-This repository distributes APKs only. It does not contain user accounts, passwords, bookings, identity documents or application source code. Actual phone installation, image-picker behavior, GPS and background notifications still require device testing.
+Android only. These APKs do not install on iPhone. Physical-device installation, GPS, photo picking and background notification behavior still need device testing.
 
 ## Verification
 
-TypeScript passed. Full backend suite: 210 tests passed. APK ZIP integrity and feature bundle checks passed on October 29, 2026. SHA-256:
+TypeScript and existing demo-login backend regression test passed. Both revised web login screens and retained account sign-in were checked in an isolated demo database. ZIP integrity and removal of the public development-login shortcut were verified in both APK bundles.
 
-- Driver v1.0.4: `696c97abdb7d369237e5c81e585eb5b501a296211e5bcec3b2f020bcd9e0a860`
-- Passenger v1.0.3: `1572fae32e343e4ef8940b8dc0c82960287c8f3acdcc7faf8708be3bcd296ab3`
+- Driver v1.0.5 SHA-256: `4d6147f2962fdf8561574c978e687e1c8596e83256d8d8ecf499b2e67851bd50`
+- Passenger v1.0.5 SHA-256: `3a1017b20e51c078ce34636aca44766f26e6dd7c33dbbb44d29e7700e2e2eda5`
+
+This repository distributes APKs only. It contains no user accounts, passwords, bookings or identity documents.
