@@ -15,9 +15,9 @@ Download the matching Android APK, open it and choose Update. Do not uninstall f
 
 v1.0.7 finds the current pilot server from the official download site before native login. If needed, use Pilot server settings → Find current pilot server. Startup on the affected phone still needs testing.
 
-Current pilot server: https://registry-struct-flag-operator.trycloudflare.com
+Current pilot server: https://api.trikila.com
 
-The operator's laptop and internet must be online. Temporary pilot addresses may change; use Pilot server settings before login if the operator supplies a newer address.
+The operator's laptop and internet must be online. The permanent pilot address is api.trikila.com. In v1.0.7 use Pilot server settings → Find current pilot server once if needed.
 
 ## Verification
 
