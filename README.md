@@ -1,29 +1,27 @@
 # Trikila Android Downloads
 
-[Trikila Apps — previews and downloads](https://trikila-apps.justinlloydmendoza86.chatgpt.site)
+[Trikila Apps — screenshots and APK downloads](https://trikila-apps.justinlloydmendoza86.chatgpt.site)
 
-## v1.0.7 — 2 November 2026
+## v1.0.8 — 4 November 2026
 
 - [Passenger APK](https://github.com/JustinIsMee/Trikila-Downloads/releases/latest/download/Trikila-Passenger.apk)
 - [Driver APK](https://github.com/JustinIsMee/Trikila-Downloads/releases/latest/download/Trikila-Driver.apk)
 
-English / Tagalog settings are available before login and in Settings. A driver's five-minute rest yields to another eligible driver, while a solo eligible driver remains available. After ten minutes from driver acceptance with no other active shared passenger, the passenger may keep waiting or change to Arkila. The displayed Arkila fare is four times the per-person shared fare, plus the original optional tip once. The assigned driver receives an in-app pickup instruction.
+Signup now asks for an email address. Forgot password sends a six-digit reset code to the email saved on your account. Codes expire after 15 minutes and are single-use. Existing registered users: open Settings → Password recovery and save your email using your current password. If you cannot access the account or inbox, contact the Trikila administrator for ownership verification. Phone remains the login identifier; signup does not send an OTP.
 
-## Install or update
+Install as an Update without uninstalling. Existing accounts, driver applications and trips remain. Android only; APKs do not install on iPhone.
 
-Download the matching Android APK, open it and choose Update. Do not uninstall first. Existing accounts and booking records remain. These APKs do not install on iPhone.
+## Permanent pilot server
 
-v1.0.7 finds the current pilot server from the official download site before native login. If needed, use Pilot server settings → Find current pilot server. Startup on the affected phone still needs testing.
+https://api.trikila.com
 
-Current pilot server: https://api.trikila.com
-
-The operator's laptop and internet must be online. The permanent pilot address is api.trikila.com. In v1.0.7 use Pilot server settings → Find current pilot server once if needed.
+The operator laptop and internet must remain online. In v1.0.7 or later, Pilot server settings → Find current pilot server can recover an older address.
 
 ## Verification
 
-220 regression tests passed. Corrected startup and current-server discovery. Both APK ZIPs and bundled feature markers were verified. Passenger and driver upgrade popups were checked at iPhone-width in an isolated demo database. Physical Android installation, GPS and background notifications still require device testing.
+226 regression tests passed, plus 21 auth/recovery tests after final validation changes. The owner confirmed arrival of the approved sender-test email. APK integrity, bundled features and exclusion of the server sending key were checked. Narrow-width web signup/recovery forms were inspected. Physical Android installation and keyboard/background behavior still require device testing.
 
-- Driver SHA-256: `f9499c3709680d3397005cf1a6ab82a5debe7c4f7d1502f163ce842b3f83c379`
-- Passenger SHA-256: `491ca330d5a68a9e164ff22f5813544fec0f5d241992843db75f58fa9abec54e`
+- Driver SHA-256: `2e16705c8f8fca500b4e453a75cb13e5eb12e6928bbece45f856bbc5c4e2a4a4`
+- Passenger SHA-256: `8f2a5082980db74fc969632c40451980b7f5a4b2ac7b48954e305f03cfe386fe`
 
-This repository contains app downloads only, without accounts, passwords, bookings or identity documents.
+This repository distributes APKs only, without account records, passwords, bookings, sending credentials or identity documents.
